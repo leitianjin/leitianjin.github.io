@@ -311,7 +311,7 @@
 
 	<a href="/2019/04/28/Hexo-Github-Page-创建个人博客/" itemprop="url">
 		<time datetime="2019-04-28T15:11:45.000Z" itemprop="dateUpdated">
-	  		2019-04-28 23:22:25
+	  		2019-04-29 21:08:16
 	  </time>
 	</a> 
 
@@ -336,9 +336,17 @@
 	</div>
 
 	<div class="article-content" id="article-content">
-		<h3 id="准备前工作-Windows环境"><a href="#准备前工作-Windows环境" class="headerlink" title="准备前工作(Windows环境)"></a>准备前工作(Windows环境)</h3><blockquote>
-<p>安装 node.js<br>安装  git 客户端<br>准备一个 前端开发工具，我这里推荐使用 Hbuilder 或是 sublimt txt</p>
+		<h4 id="准备前工作-Windows环境"><a href="#准备前工作-Windows环境" class="headerlink" title="准备前工作(Windows环境)"></a>准备前工作(Windows环境)</h4><blockquote>
+<p>安装 node.js<br>安装  git 客户端<br>准备一个 前端开发工具，我这里推荐使用 Hbuilder 或是 Sublime Text，当然你还可以使用git bash 的命令行工具</p>
+<ul>
+<li style="list-style: none"><input type="checkbox" checked> <strong>安装node.js、git  请自行百度</strong></li>
+</ul>
 </blockquote>
+<hr>
+<h4 id="一切准备就绪，开始…"><a href="#一切准备就绪，开始…" class="headerlink" title="一切准备就绪，开始…"></a>一切准备就绪，开始…</h4><p>第一步：安装 <code>hexo</code></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ hexo install</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>第二步：编辑站点目录下的<code>_config.yml</code>文件</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 添加下列参数</span></span><br><span class="line"></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">git@github.com:leitianjin/leitianjin.github.io.git</span> <span class="comment">#这里要配置自己的代码仓库哦</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
 <hr>
 <blockquote>
 <p>未完 待续。。。</p>
