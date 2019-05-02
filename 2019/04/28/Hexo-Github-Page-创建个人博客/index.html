@@ -311,7 +311,7 @@
 
 	<a href="/2019/04/28/Hexo-Github-Page-创建个人博客/" itemprop="url">
 		<time datetime="2019-04-28T15:11:45.000Z" itemprop="dateUpdated">
-	  		2019-04-30 21:53:43
+	  		2019-05-02 21:16:40
 	  </time>
 	</a> 
 
@@ -345,8 +345,18 @@
 <hr>
 <h4 id="一切准备就绪，开始…"><a href="#一切准备就绪，开始…" class="headerlink" title="一切准备就绪，开始…"></a>一切准备就绪，开始…</h4><p>第一步：安装 <code>hexo</code></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ hexo install</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-<p>第二步：编辑站点目录下的<code>_config.yml</code>文件</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 添加下列参数</span></span><br><span class="line"></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">git@github.com:leitianjin/leitianjin.github.io.git</span> <span class="comment">#这里要配置自己的代码仓库哦</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+<p>第二步：配置SSH Key</p>
+<blockquote>
+<p>如果你已创建 GitHub 账号并添加一个远程仓库</p>
+</blockquote>
+<p>那么接下来就要检查本地是否有 SSH key</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ~/.ssh</span><br><span class="line">$ ls</span><br><span class="line"><span class="comment">#进入 .ssh 文件夹，第二步是显示 .ssh 文件下的文件夹及文件。如果 SSH key 存在，就会显示 id_rsa、id_rsa.pub、know_hosts 三个文件 。</span></span><br></pre></td></tr></table></figure>
+<p>如果没有也没关系，下面我们就来创建 SSH key<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"你的邮箱"</span>  <span class="comment">#注意"你的邮箱"应该是配置git时的邮箱</span></span><br></pre></td></tr></table></figure></p>
+<p>把 “你的邮箱” 替换成你真实的邮箱，然后点击回车。接着会让你输入文件名，点击回车直接忽略，接着会让输入两次密码，点击两次回车，直接设置为空，不用输入密码 。</p>
+<p>创建成功后，可以通过如下命令拷贝 SSH key 的内容 ：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ clip &lt; ~/.ssh/id_rsa.pub<span class="string">"</span></span><br></pre></td></tr></table></figure></p>
+<p>现在已拷贝了 SSH key 的内容，那么 GitHub 如何添加 SSH key 呢 ？<br>进入你的GitHub首页，点击setting 然后在左侧找到SSH and GPG keys ，点击New SSH key将刚才复制的内容粘贴到key中，title随意</p>
+<p>第三步：编辑站点目录下的<code>_config.yml</code>文件</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 添加下列参数</span></span><br><span class="line"></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">git@github.com:leitianjin/leitianjin.github.io.git</span> <span class="comment">#这里要配置自己的代码仓库哦，否则上传不到你github仓库</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
 <hr>
 <blockquote>
 <p>未完 待续。。。</p>
