@@ -16,7 +16,7 @@
       Hexo+Github Page 创建个人博客 | Soul醉疯 ||  這世間，唯有夢想與好姑娘不可辜負
     
   </title>
-  <meta name="author" content="tianjin.Lei@">
+  <meta name="author" content="tianjin.lei@">
   <meta name="keywords" content="tianin.lei  雷天金">
   <meta name="description" content>
 	<!-- favicon -->
@@ -311,7 +311,7 @@
 
 	<a href="/2019/04/28/Hexo-Github-Page-创建个人博客/" itemprop="url">
 		<time datetime="2019-04-28T15:11:45.000Z" itemprop="dateUpdated">
-	  		2019-05-02 21:16:40
+	  		2019-05-03 14:46:57
 	  </time>
 	</a> 
 
@@ -357,10 +357,10 @@
 <p>现在已拷贝了 SSH key 的内容，那么 GitHub 如何添加 SSH key 呢 ？<br>进入你的GitHub首页，点击setting 然后在左侧找到SSH and GPG keys ，点击New SSH key将刚才复制的内容粘贴到key中，title随意</p>
 <p>第三步：编辑站点目录下的<code>_config.yml</code>文件</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 添加下列参数</span></span><br><span class="line"></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">git@github.com:leitianjin/leitianjin.github.io.git</span> <span class="comment">#这里要配置自己的代码仓库哦，否则上传不到你github仓库</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+<p>第四步：打包上传</p>
+<p>完成上面步骤后，接着就可以打包上传了</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 执行hexo 命令  注意一定要在站点根目录下执行</span></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line">  $ hexo clean  <span class="comment">#其实我也不知道这条命令有卵用，按官方文档操作就好</span></span><br><span class="line">  $ hexo g      <span class="comment">#将.MD 文件及其相关文件转换成html、js、css 静态文件</span></span><br><span class="line">  $ hexo d		<span class="comment">#将生成的静态文件上传到你建立github</span></span><br></pre></td></tr></table></figure>
 <hr>
-<blockquote>
-<p>未完 待续。。。</p>
-</blockquote>
 	
 	</div>
 	
@@ -445,7 +445,38 @@
 						<div class="relate-post-cover">
 							<a href="/2019/04/26/hello-world/" title="Hello World">				
 								
-								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/welcome-cover.jpg" alt="Hello World">
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/42895346-9f853c16-8a87-11e8-99eb-e83767ef3007.png" alt="Hello World">
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2019/05/03/随笔/" title="随笔">
+								随笔			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								五月 3日, 2019				
+							</p>
+							<p class="relate-post-content">
+								心烦的时候一定要出去走走………………
+
+心烦的时候一定要出去走走………………
+
+#心烦的时候一定要出去走走………………
+
+
+
+
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2019/05/03/随笔/" title="随笔">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/welcome-cover.jpg" alt="随笔">
 							</a>
 						</div>
 					</li>											
@@ -785,7 +816,7 @@
 	<div class="copyright">
 		<p>
 			 
-				&copy;2019, content by tianjin.Lei@. All Rights Reserved.
+				&copy;2019, content by tianjin.lei@. All Rights Reserved.
 			
 			
 			
