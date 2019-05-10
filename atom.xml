@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-10T07:05:39.499Z</updated>
+  <updated>2019-05-10T07:17:25.931Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>名言摘录1</title>
+    <link href="http://yoursite.com/2019/05/10/%E5%90%8D%E8%A8%80%E6%91%98%E5%BD%951/"/>
+    <id>http://yoursite.com/2019/05/10/名言摘录1/</id>
+    <published>2019-05-10T07:11:05.000Z</published>
+    <updated>2019-05-10T07:17:25.931Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><blockquote><p>生命是因为一次又一次的等待才显得漫长的，如果有谁一生中都没有等待过谁，那他一定是个短命鬼。 </p></blockquote></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;生命是因为一次又一次的等待才显得漫长的，如果有谁一生中都没有等待过谁，那他一定是个短命鬼。 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
+    
+  </entry>
   
   <entry>
     <title>Apache POI使用</title>
