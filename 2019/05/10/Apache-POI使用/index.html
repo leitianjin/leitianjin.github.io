@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
   <title>
     
-      开源协议 | Soul醉疯 ||  這世間，唯有夢想與好姑娘不可辜負
+      Apache POI使用 | Soul醉疯 ||  這世間，唯有夢想與好姑娘不可辜負
     
   </title>
   <meta name="author" content="tianjin.lei@">
@@ -164,7 +164,7 @@
 	<!-- Page title -->
 	<p>
 		
-			当前文章&nbsp;:&nbsp;《开源协议》
+			当前文章&nbsp;:&nbsp;《Apache POI使用》
 		
 	</p>
 
@@ -266,18 +266,6 @@
 		插件作者：KELEN
 		插件来源: https://github.com/KELEN/katelog
 -->
-
-	
-		<div class="layout-toc">
-			<div id="layout-toc">
-				<div class="k-catelog-list" id="catelog-list" data-title="文章目录"></div>
-			</div>
-		</div>
-
-		
-		<script src="/plugin/toc/katelog.min.js"></script>
-
-		
 	 
 
 <div class="layout-post">
@@ -285,8 +273,8 @@
 	<div class="article-title">
 		<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
 		
-	<a href="/2019/05/05/开源协议/" itemprop="url">
-		开源协议
+	<a href="/2019/05/10/Apache-POI使用/" itemprop="url">
+		Apache POI使用
 	</a>
 
 	</div>
@@ -299,9 +287,9 @@
 
 	发布于
 
-	<a href="/2019/05/05/开源协议/" itemprop="url">
-		<time datetime="2019-05-05T01:50:56.000Z" itemprop="datePublished">
-	  		2019-05-05 09:50:56
+	<a href="/2019/05/10/Apache-POI使用/" itemprop="url">
+		<time datetime="2019-05-10T06:47:02.000Z" itemprop="datePublished">
+	  		2019-05-10 14:47:02
 	  </time>
 	</a>
 	&nbsp;
@@ -317,9 +305,9 @@
 
 	更新于
 
-	<a href="/2019/05/05/开源协议/" itemprop="url">
-		<time datetime="2019-05-05T01:50:56.000Z" itemprop="dateUpdated">
-	  		2019-05-05 20:31:42
+	<a href="/2019/05/10/Apache-POI使用/" itemprop="url">
+		<time datetime="2019-05-10T06:47:02.000Z" itemprop="dateUpdated">
+	  		2019-05-10 14:54:10
 	  </time>
 	</a> 
 
@@ -330,8 +318,8 @@
 			<i class="fa fa-tags"></i>
 			
 	
-		<a href="/tags/MIT-BSD-开源软件/" class=" ">
-			MIT BSD  开源软件
+		<a href="/tags/POI/" class=" ">
+			POI
 		</a>
 	
 		
@@ -344,21 +332,14 @@
 	</div>
 
 	<div class="article-content" id="article-content">
-		<h4 id="BSD"><a href="#BSD" class="headerlink" title="BSD"></a>BSD</h4><blockquote>
-<p>BSD开源协议是一个给于使用者很大自由的协议。基本上使用者可以”为所欲为”，可以自由的使用，修改源代码，也可以将修改后的代码作为开源或者专有软件再发布。<br>但”为所欲为”的前提当你发布使用了BSD协议的代码，或者以BSD协议代码为基础做二次开发自己的产品时，需要满足三个条件：</p>
+		<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">	 <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据fileType不同读取excel文件</span></span><br><span class="line"><span class="comment">     *</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> path</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> path</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@throws</span> IOException</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> List&lt;List&lt;String&gt;&gt; readExcel(String path) &#123;</span><br><span class="line">        String fileType = path.substring(path.lastIndexOf(<span class="string">"."</span>) + <span class="number">1</span>);</span><br><span class="line">        System.err.println(fileType);</span><br><span class="line">        <span class="comment">// return a list contains many list</span></span><br><span class="line">       List&lt;List&lt;String&gt;&gt; lists = <span class="keyword">new</span> ArrayList&lt;List&lt;String&gt;&gt;();</span><br><span class="line">        <span class="comment">//读取excel文件</span></span><br><span class="line">        InputStream is = <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            is = <span class="keyword">new</span> FileInputStream(path);</span><br><span class="line">            <span class="comment">//获取工作薄</span></span><br><span class="line">            Workbook wb = <span class="keyword">null</span>;</span><br><span class="line">            <span class="keyword">if</span> (fileType.equals(<span class="string">"xls"</span>)) &#123;</span><br><span class="line">                wb = <span class="keyword">new</span> HSSFWorkbook(is);</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span> (fileType.equals(<span class="string">"xlsx"</span>)) &#123;</span><br><span class="line">                wb = <span class="keyword">new</span> XSSFWorkbook(is);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="comment">//读取第一个工作页sheet</span></span><br><span class="line">            Sheet sheet = wb.getSheetAt(<span class="number">0</span>);</span><br><span class="line">            <span class="comment">//第一行为标题</span></span><br><span class="line">            <span class="keyword">for</span> (Row row : sheet) &#123;</span><br><span class="line">                ArrayList&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</span><br><span class="line">                <span class="keyword">for</span> (Cell cell : row) &#123;</span><br><span class="line">                    <span class="comment">//根据不同类型转化成字符串</span></span><br><span class="line">                    cell.setCellType(Cell.CELL_TYPE_STRING);</span><br><span class="line">                    list.add(cell.getStringCellValue());</span><br><span class="line">                &#125;</span><br><span class="line">                lists.add(list);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                <span class="keyword">if</span> (is != <span class="keyword">null</span>) is.close();</span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> lists;</span><br><span class="line">       </span><br><span class="line">        </span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 创建Excel.xls</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> lists 需要写入xls的数据</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> titles 列标题</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> name  文件名</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">    * <span class="doctag">@throws</span> IOException</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">  </span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Workbook <span class="title">creatExcel</span><span class="params">(List&lt;List&lt;String&gt;&gt; lists, String[] titles, String name)</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">      </span><br><span class="line">       <span class="comment">//创建新的工作薄</span></span><br><span class="line">       Workbook wb = <span class="keyword">new</span> HSSFWorkbook();</span><br><span class="line">       <span class="comment">// 创建第一个sheet（页），并命名</span></span><br><span class="line">       Sheet sheet = wb.createSheet(name);</span><br><span class="line">       <span class="comment">// 手动设置列宽。第一个参数表示要为第几列设；，第二个参数表示列的宽度，n为列高的像素数。</span></span><br><span class="line">       <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;titles.length;i++)&#123;</span><br><span class="line">           sheet.setColumnWidth((<span class="keyword">short</span>) i, (<span class="keyword">short</span>) (<span class="number">35.7</span> * <span class="number">150</span>));</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 创建第一行</span></span><br><span class="line">       Row row = sheet.createRow((<span class="keyword">short</span>) <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 创建两种单元格格式</span></span><br><span class="line">       CellStyle cs = wb.createCellStyle();</span><br><span class="line">       CellStyle cs2 = wb.createCellStyle();</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 创建两种字体</span></span><br><span class="line">       Font f = wb.createFont();</span><br><span class="line">       Font f2 = wb.createFont();</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 创建第一种字体样式（用于列名）</span></span><br><span class="line">       f.setFontHeightInPoints((<span class="keyword">short</span>) <span class="number">10</span>);</span><br><span class="line">       f.setColor(IndexedColors.BLACK.getIndex());</span><br><span class="line">       f.setBoldweight(Font.BOLDWEIGHT_BOLD);</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 创建第二种字体样式（用于值）</span></span><br><span class="line">       f2.setFontHeightInPoints((<span class="keyword">short</span>) <span class="number">10</span>);</span><br><span class="line">       f2.setColor(IndexedColors.BLACK.getIndex());</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 设置第一种单元格的样式（用于列名）</span></span><br><span class="line">       cs.setFont(f);</span><br><span class="line">       cs.setBorderLeft(CellStyle.BORDER_THIN);</span><br><span class="line">       cs.setBorderRight(CellStyle.BORDER_THIN);</span><br><span class="line">       cs.setBorderTop(CellStyle.BORDER_THIN);</span><br><span class="line">       cs.setBorderBottom(CellStyle.BORDER_THIN);</span><br><span class="line">       cs.setAlignment(CellStyle.ALIGN_CENTER);</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 设置第二种单元格的样式（用于值）</span></span><br><span class="line">       cs2.setFont(f2);</span><br><span class="line">       cs2.setBorderLeft(CellStyle.BORDER_THIN);</span><br><span class="line">       cs2.setBorderRight(CellStyle.BORDER_THIN);</span><br><span class="line">       cs2.setBorderTop(CellStyle.BORDER_THIN);</span><br><span class="line">       cs2.setBorderBottom(CellStyle.BORDER_THIN);</span><br><span class="line">       cs2.setAlignment(CellStyle.ALIGN_CENTER);</span><br><span class="line">       <span class="comment">//设置列名</span></span><br><span class="line">       <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;titles.length;i++)&#123;</span><br><span class="line">           Cell cell = row.createCell(i);</span><br><span class="line">           cell.setCellValue(titles[i]);</span><br><span class="line">           cell.setCellStyle(cs);</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">if</span>(lists == <span class="keyword">null</span> || lists.size() == <span class="number">0</span>)&#123;</span><br><span class="line">           <span class="keyword">return</span> wb;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="comment">//设置每行每列的值</span></span><br><span class="line">       <span class="comment">//设置每行每列的值</span></span><br><span class="line">       <span class="comment">//设置每行每列的值</span></span><br><span class="line">       <span class="comment">//设置每行每列的值</span></span><br><span class="line"></span><br><span class="line">       <span class="keyword">for</span> (<span class="keyword">short</span> i = <span class="number">1</span>; i &lt;=<span class="number">805</span>; i++) &#123;</span><br><span class="line">           <span class="comment">// Row 行,Cell 方格 , Row 和 Cell 都是从0开始计数的</span></span><br><span class="line">           <span class="comment">// 创建一行，在页sheet上</span></span><br><span class="line">       	</span><br><span class="line">           Row row1 = sheet.createRow((<span class="keyword">short</span>)i);</span><br><span class="line">           <span class="keyword">for</span>(<span class="keyword">short</span> j=<span class="number">0</span>;j&lt;titles.length;j++)&#123;</span><br><span class="line">               <span class="comment">// 在row行上创建一个方格</span></span><br><span class="line">               Cell cell = row1.createCell(j);</span><br><span class="line">               <span class="keyword">switch</span> (j) &#123;</span><br><span class="line">			<span class="keyword">case</span> <span class="number">0</span>:</span><br><span class="line">				cell.setCellValue(i);</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			<span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">				cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">4</span>));</span><br><span class="line">				<span class="keyword">break</span>;                       </span><br><span class="line">			<span class="keyword">case</span> <span class="number">2</span>:                          </span><br><span class="line">				cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">5</span>));</span><br><span class="line">				<span class="keyword">break</span>;                       </span><br><span class="line">			<span class="keyword">case</span> <span class="number">3</span>:                          </span><br><span class="line">				cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">7</span>));</span><br><span class="line">				<span class="keyword">break</span>;                       </span><br><span class="line">			<span class="keyword">case</span> <span class="number">4</span>:                          </span><br><span class="line">				cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">8</span>));</span><br><span class="line">				<span class="keyword">break</span>;                       </span><br><span class="line">			<span class="keyword">case</span> <span class="number">5</span>:                          </span><br><span class="line">				cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">9</span>));</span><br><span class="line">				<span class="keyword">break</span>;                       </span><br><span class="line">			<span class="keyword">case</span> <span class="number">6</span>:                         </span><br><span class="line">				cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">10</span>));</span><br><span class="line">				<span class="keyword">break</span>;                       </span><br><span class="line">			<span class="keyword">case</span> <span class="number">7</span>:                         </span><br><span class="line">				cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">19</span>));</span><br><span class="line">				<span class="keyword">break</span>;                       </span><br><span class="line">			<span class="keyword">case</span> <span class="number">8</span>:                         </span><br><span class="line">				cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">21</span>));</span><br><span class="line">				<span class="keyword">break</span>; </span><br><span class="line">				</span><br><span class="line">			<span class="keyword">default</span>:</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">              </span><br><span class="line">               cell.setCellStyle(cs2);</span><br><span class="line">           &#125;</span><br><span class="line">           </span><br><span class="line">       &#125;</span><br><span class="line">   </span><br><span class="line">       <span class="keyword">return</span> wb;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<blockquote>
+<p> 车轮已经造好，直接拿去用吧。</p>
 </blockquote>
-<pre><code>◆如果再发布的产品中包含源代码，则在源代码中必须带有原来代码中的BSD协议。
-◆如果再发布的只是二进制类库/软件，则需要在类库/软件的文档和版权声明中包含原来代码中的BSD协议。
-◆不可以用开源代码的作者/机构名字和原来产品的名字做市场推广。
-</code></pre><blockquote>
-<p>BSD 代码鼓励代码共享，但需要尊重代码作者的著作权。BSD由于允许使用者修改和重新发布代码，也允许使用或在BSD代码上开发商业软件发布和销售，因此是对 商业集成很友好的协议。而很多的公司企业在选用开源产品的时候都首选BSD协议，因为可以完全控制这些第三方的代码，在必要的时候可以修改或者二次开发。</p>
-</blockquote>
-<h4 id="MIT"><a href="#MIT" class="headerlink" title="MIT"></a>MIT</h4><blockquote>
-<p>MIT是和BSD一样宽范的许可协议，作者只想保留版权，而无任何其它的限制。也就是说，你必须在你的发行版里包含原许可协议的声明，无论你是以二进制发布的还是以源代码发布的。MIT协议又称麻省理工学院许可证，最初由麻省理工学院开发。被授权人权利：</p>
-</blockquote>
-<pre><code>1、被授权人有权利使用、复制、修改、合并、出版发行、散布、再授权及贩售软件及软件的副本。
-2、被授权人可根据程式的需要修改授权条款为适当的内容。被授权人义务：在软件和软件的所有副本中都必须包含版权声明和许可声明。
-</code></pre>	
+	
 	</div>
 	
 	<div id="current-post-cover" data-scr="/img/timg (1).jpg"></div>
@@ -376,12 +357,8 @@
 	<span>
 		<a href="javascript: window.scrollTo(0, 0);">返回顶部</a>
 		
-			<a href="/2019/05/05/如何用Python-来画佩奇/" title="如何用Python 来画佩奇" rel="prev">
-				&laquo;上一篇
-			</a>
 		
-		
-			<a href="/2019/05/04/I-Love-You/" title="I Love You" rel="next">
+			<a href="/2019/05/08/安和桥/" title="安和桥" rel="next">
 				下一篇&raquo;
 			</a>
 			
@@ -399,29 +376,6 @@
 <div class="relate-post">
 	
 		<ul>
-			
-					<li>
-						<div class="relate-post-text">
-							<a class="relate-post-title" href="/2019/05/10/Apache-POI使用/" title="Apache POI使用">
-								Apache POI使用			
-							</a>
-							<p class="relate-post-date">
-								<i class="fa fa-calendar"></i>
-								五月 10日, 2019				
-							</p>
-							<p class="relate-post-content">
-								1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253	 /**     * 根据fileTy...
-							</p>
-						</div>
-
-						<div class="relate-post-cover">
-							<a href="/2019/05/10/Apache-POI使用/" title="Apache POI使用">				
-								
-								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/timg (1).jpg" alt="Apache POI使用">
-							</a>
-						</div>
-					</li>											
-			
 			
 					<li>
 						<div class="relate-post-text">
@@ -533,6 +487,30 @@
 							<a href="/2019/05/05/如何用Python-来画佩奇/" title="如何用Python 来画佩奇">				
 								
 								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/yaktocat.png" alt="如何用Python 来画佩奇">
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2019/05/05/开源协议/" title="开源协议">
+								开源协议			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								五月 5日, 2019				
+							</p>
+							<p class="relate-post-content">
+								BSD
+BSD开源协议是一个给于使用者很大自由的协议。基本上使用者可以”为所欲为”，可以自由的使用，修改源代码，也可以将修改后的代码作为开源或者专有软件再发布。但”为所欲为”的前提当你发布使用了BSD协议的代码，或者以BSD协议代码为...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2019/05/05/开源协议/" title="开源协议">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/timg (1).jpg" alt="开源协议">
 							</a>
 						</div>
 					</li>											
