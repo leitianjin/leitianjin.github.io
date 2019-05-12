@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-12T09:02:26.361Z</updated>
+  <updated>2019-05-12T09:51:58.909Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>名言摘录2</title>
+    <link href="http://yoursite.com/2019/05/12/%E5%90%8D%E8%A8%80%E6%91%98%E5%BD%952/"/>
+    <id>http://yoursite.com/2019/05/12/名言摘录2/</id>
+    <published>2019-05-12T09:16:32.000Z</published>
+    <updated>2019-05-12T09:51:58.909Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>这世界只有一种乡愁，是你不在身边的时候。 </p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;这世界只有一种乡愁，是你不在身边的时候。 &lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Vue.js——你好世界</title>
     <link href="http://yoursite.com/2019/05/11/Vue-js%E2%80%94%E2%80%94%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/"/>
     <id>http://yoursite.com/2019/05/11/Vue-js——你好世界/</id>
     <published>2019-05-11T14:06:36.000Z</published>
-    <updated>2019-05-12T09:02:26.361Z</updated>
+    <updated>2019-05-12T10:10:26.625Z</updated>
     
     <content type="html"><![CDATA[<p>现在来看一下我们的第一个Vue.js项目，按照入门，我们来写个Hello world</p><p>首先引入vue.js文件</p><blockquote></blockquote><p>html 示例代码：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"#app"</span>&gt;</span></span><br><span class="line">&#123;&#123;msg&#125;&#125;</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>对应的JavaScript  代码如下：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> vm = <span class="keyword">new</span> Vue(&#123;</span><br><span class="line"></span><br><span class="line">el : <span class="string">"#app"</span>,</span><br><span class="line">data : &#123;</span><br><span class="line">msg : <span class="string">"hello world vue.js"</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>]]></content>
     
