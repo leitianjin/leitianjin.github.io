@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-14T07:22:21.043Z</updated>
+  <updated>2019-05-15T03:20:41.534Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>忽然之间</title>
+    <link href="http://yoursite.com/2019/05/15/%E5%BF%BD%E7%84%B6%E4%B9%8B%E9%97%B4/"/>
+    <id>http://yoursite.com/2019/05/15/忽然之间/</id>
+    <published>2019-05-15T03:11:08.000Z</published>
+    <updated>2019-05-15T03:20:41.534Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>忽然之间，我明白太放不开你的爱 </p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;忽然之间，我明白太放不开你的爱 &lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Java 面试要点</title>
     <link href="http://yoursite.com/2019/05/14/Java-%E9%9D%A2%E8%AF%95%E8%A6%81%E7%82%B9/"/>
     <id>http://yoursite.com/2019/05/14/Java-面试要点/</id>
     <published>2019-05-14T07:15:06.000Z</published>
-    <updated>2019-05-14T07:22:21.043Z</updated>
+    <updated>2019-05-15T03:18:32.851Z</updated>
     
     <content type="html"><![CDATA[<h3 id="希望对找后端开发的同学有用"><a href="#希望对找后端开发的同学有用" class="headerlink" title="---希望对找后端开发的同学有用"></a><code>---希望对找后端开发的同学有用</code></h3><p>1.熟悉SpringMVC原理，包括其中的注解。<br>2.在后台将对象转化为json的几种方法。<br>3.千万级别的查询对sql的优化方法。<br>4.用maven如何管理项目。<br>5.restful的开发风格。<br>6.前端的jQuery，ajax。<br>7.存储过程，视图，索引。</p><hr><p>servlet生命周期<br>spring里的事物<br>spring里如何执行SQL<br>常见的乱码问题<br>什么情况下会导致数据库死锁—–如何模拟数据库死锁——怎样避免数据库死锁<br>依赖注入<br>rownumber  rowid<br>常用的数据源有哪一些<br>java中间件有哪一些<br>SSH怎么跟数据库做的关联映射<br>模拟一个HTTP请求</p><hr><p>需要了解的技术：<br>1.redis缓存技术。<br>2.solr 索引。<br>3.easyUI技术。<br>4.JPA<br>5.nginx<br>6.MQ队列</p>]]></content>
     
