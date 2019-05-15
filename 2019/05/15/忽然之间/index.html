@@ -327,7 +327,22 @@
 		
 		
 
+	
+    <span class="leancloud_visitors" id="/2019/05/15/忽然之间/_visitors" data-url="/2019/05/15/忽然之间/" data-title="忽然之间">
+       	<i class="fa fa-eye"></i>
+       	热度
+        <i class="leancloud_visitors_count" id="leancloud_visitors_count">0</i>
+    </span>
+    
 
+
+
+	
+    <span class="leancloud_likes" id="/2019/05/15/忽然之间/_likes" data-url="/2019/05/15/忽然之间/" data-title="忽然之间" rel="unlike">
+        <i class="fa fa-heart"></i>
+        喜欢
+        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
+    </span>
 
 	</div>
 
@@ -783,6 +798,14 @@ html 示例代码：
 -->
 
 
+
+	<script>
+		var appid = '692k760CqGzvPpK061TFXECH-gzGzoHsz',
+            appkey = '3MIXq4jSvk7TH7BYyI1DNe6q';	  
+        AnnieLeancloud(appid, appkey);         
+	</script>
+    
+
 	
 
 
@@ -1026,6 +1049,23 @@ html 示例代码：
 		<div class="local-search-footer">
 			<div class="topN-post">				
 				
+
+   
+	<div id="topN">
+		<div class="topN-title" data-title="热门文章"></div> 
+	</div>
+	
+    <script>
+        var appid = '692k760CqGzvPpK061TFXECH-gzGzoHsz',
+            appkey = '3MIXq4jSvk7TH7BYyI1DNe6q',
+            limitCount = 10;
+        if( $('#topN').length ){
+            AV.initialize(appid, appkey);
+            var Counter = AV.Object.extend("Counter");  
+            topNPost(Counter, limitCount);
+        }
+    </script>
+   
 								
 			</div>
 		</div>
