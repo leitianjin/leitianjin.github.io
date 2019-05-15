@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-15T03:20:41.534Z</updated>
+  <updated>2019-05-15T08:15:08.223Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/05/15/%E5%BF%BD%E7%84%B6%E4%B9%8B%E9%97%B4/"/>
     <id>http://yoursite.com/2019/05/15/忽然之间/</id>
     <published>2019-05-15T03:11:08.000Z</published>
-    <updated>2019-05-15T03:20:41.534Z</updated>
+    <updated>2019-05-15T08:15:08.223Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>忽然之间，我明白太放不开你的爱 </p></blockquote>]]></content>
     
@@ -289,7 +289,7 @@
     <link href="http://yoursite.com/2019/05/05/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE/"/>
     <id>http://yoursite.com/2019/05/05/开源协议/</id>
     <published>2019-05-05T01:50:56.000Z</published>
-    <updated>2019-05-05T12:31:42.668Z</updated>
+    <updated>2019-05-15T08:16:10.480Z</updated>
     
     <content type="html"><![CDATA[<h4 id="BSD"><a href="#BSD" class="headerlink" title="BSD"></a>BSD</h4><blockquote><p>BSD开源协议是一个给于使用者很大自由的协议。基本上使用者可以”为所欲为”，可以自由的使用，修改源代码，也可以将修改后的代码作为开源或者专有软件再发布。<br>但”为所欲为”的前提当你发布使用了BSD协议的代码，或者以BSD协议代码为基础做二次开发自己的产品时，需要满足三个条件：</p></blockquote><pre><code>◆如果再发布的产品中包含源代码，则在源代码中必须带有原来代码中的BSD协议。◆如果再发布的只是二进制类库/软件，则需要在类库/软件的文档和版权声明中包含原来代码中的BSD协议。◆不可以用开源代码的作者/机构名字和原来产品的名字做市场推广。</code></pre><blockquote><p>BSD 代码鼓励代码共享，但需要尊重代码作者的著作权。BSD由于允许使用者修改和重新发布代码，也允许使用或在BSD代码上开发商业软件发布和销售，因此是对 商业集成很友好的协议。而很多的公司企业在选用开源产品的时候都首选BSD协议，因为可以完全控制这些第三方的代码，在必要的时候可以修改或者二次开发。</p></blockquote><h4 id="MIT"><a href="#MIT" class="headerlink" title="MIT"></a>MIT</h4><blockquote><p>MIT是和BSD一样宽范的许可协议，作者只想保留版权，而无任何其它的限制。也就是说，你必须在你的发行版里包含原许可协议的声明，无论你是以二进制发布的还是以源代码发布的。MIT协议又称麻省理工学院许可证，最初由麻省理工学院开发。被授权人权利：</p></blockquote><pre><code>1、被授权人有权利使用、复制、修改、合并、出版发行、散布、再授权及贩售软件及软件的副本。2、被授权人可根据程式的需要修改授权条款为适当的内容。被授权人义务：在软件和软件的所有副本中都必须包含版权声明和许可声明。</code></pre>]]></content>
     
