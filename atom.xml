@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-15T08:15:08.223Z</updated>
+  <updated>2019-05-16T07:35:49.335Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,20 +17,48 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>生命在于折腾</title>
+    <link href="http://yoursite.com/2019/05/16/%E7%94%9F%E5%91%BD%E5%9C%A8%E4%BA%8E%E6%8A%98%E8%85%BE/"/>
+    <id>http://yoursite.com/2019/05/16/生命在于折腾/</id>
+    <published>2019-05-16T05:42:41.000Z</published>
+    <updated>2019-05-16T07:35:49.335Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="生命在于折腾"><a href="#生命在于折腾" class="headerlink" title="生命在于折腾"></a>生命在于折腾</h3><blockquote><p>生活不止朋友圈和抖音，还要有更多的追求.</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;生命在于折腾&quot;&gt;&lt;a href=&quot;#生命在于折腾&quot; class=&quot;headerlink&quot; title=&quot;生命在于折腾&quot;&gt;&lt;/a&gt;生命在于折腾&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;生活不止朋友圈和抖音，还要有更多的追求.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title>忽然之间</title>
     <link href="http://yoursite.com/2019/05/15/%E5%BF%BD%E7%84%B6%E4%B9%8B%E9%97%B4/"/>
     <id>http://yoursite.com/2019/05/15/忽然之间/</id>
     <published>2019-05-15T03:11:08.000Z</published>
-    <updated>2019-05-15T08:15:08.223Z</updated>
+    <updated>2019-05-16T05:42:07.912Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>忽然之间，我明白太放不开你的爱 </p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>忽然之间</p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
         &lt;blockquote&gt;
-&lt;p&gt;忽然之间，我明白太放不开你的爱 &lt;/p&gt;
+&lt;p&gt;忽然之间&lt;/p&gt;
 &lt;/blockquote&gt;
 
       
@@ -47,7 +75,7 @@
     <link href="http://yoursite.com/2019/05/14/Java-%E9%9D%A2%E8%AF%95%E8%A6%81%E7%82%B9/"/>
     <id>http://yoursite.com/2019/05/14/Java-面试要点/</id>
     <published>2019-05-14T07:15:06.000Z</published>
-    <updated>2019-05-15T08:22:35.426Z</updated>
+    <updated>2019-05-16T05:37:06.281Z</updated>
     
     <content type="html"><![CDATA[<h3 id="希望对找后端开发的同学有用"><a href="#希望对找后端开发的同学有用" class="headerlink" title="---希望对找后端开发的同学有用"></a><code>---希望对找后端开发的同学有用</code></h3><p>1.熟悉SpringMVC原理，包括其中的注解。<br>2.在后台将对象转化为json的几种方法。<br>3.千万级别的查询对sql的优化方法。<br>4.用maven如何管理项目。<br>5.restful的开发风格。<br>6.前端的jQuery，ajax。<br>7.存储过程，视图，索引。</p><hr><p>servlet生命周期<br>spring里的事物<br>spring里如何执行SQL<br>常见的乱码问题<br>什么情况下会导致数据库死锁—–如何模拟数据库死锁——怎样避免数据库死锁<br>依赖注入<br>rownumber  rowid<br>常用的数据源有哪一些<br>java中间件有哪一些<br>SSH怎么跟数据库做的关联映射<br>模拟一个HTTP请求</p><hr><p>需要了解的技术：<br>1.redis缓存技术。<br>2.solr 索引。<br>3.easyUI技术。<br>4.JPA<br>5.nginx<br>6.MQ队列</p>]]></content>
     
@@ -60,6 +88,8 @@
     
     </summary>
     
+      <category term="后端开发" scheme="http://yoursite.com/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
     
       <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
     
@@ -70,7 +100,7 @@
     <link href="http://yoursite.com/2019/05/12/%E5%90%8D%E8%A8%80%E6%91%98%E5%BD%952/"/>
     <id>http://yoursite.com/2019/05/12/名言摘录2/</id>
     <published>2019-05-12T09:16:32.000Z</published>
-    <updated>2019-05-12T09:51:58.909Z</updated>
+    <updated>2019-05-16T05:37:54.325Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>这世界只有一种乡愁，是你不在身边的时候。 </p></blockquote>]]></content>
     
@@ -86,6 +116,8 @@
     
     </summary>
     
+      <category term="文字控" scheme="http://yoursite.com/categories/%E6%96%87%E5%AD%97%E6%8E%A7/"/>
+    
     
       <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
     
@@ -96,7 +128,7 @@
     <link href="http://yoursite.com/2019/05/11/Vue-js%E2%80%94%E2%80%94%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/"/>
     <id>http://yoursite.com/2019/05/11/Vue-js——你好世界/</id>
     <published>2019-05-11T14:06:36.000Z</published>
-    <updated>2019-05-13T02:33:46.280Z</updated>
+    <updated>2019-05-16T05:38:50.729Z</updated>
     
     <content type="html"><![CDATA[<p>现在来看一下我们的第一个Vue.js项目，按照入门，我们来写个Hello world</p><p>首先引入vue.js文件</p><blockquote></blockquote><p>html 示例代码：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"#app"</span>&gt;</span></span><br><span class="line">&#123;&#123;msg&#125;&#125;</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>对应的JavaScript  代码如下：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> vm = <span class="keyword">new</span> Vue(&#123;</span><br><span class="line"></span><br><span class="line">el : <span class="string">"#app"</span>,</span><br><span class="line">data : &#123;</span><br><span class="line">msg : <span class="string">"hello world vue.js"</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -114,6 +146,8 @@
     
     </summary>
     
+      <category term="前端开发" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
     
       <category term="Vue.js" scheme="http://yoursite.com/tags/Vue-js/"/>
     
@@ -124,7 +158,7 @@
     <link href="http://yoursite.com/2019/05/10/%E5%90%8D%E8%A8%80%E6%91%98%E5%BD%951/"/>
     <id>http://yoursite.com/2019/05/10/名言摘录1/</id>
     <published>2019-05-10T07:11:05.000Z</published>
-    <updated>2019-05-10T07:17:25.931Z</updated>
+    <updated>2019-05-16T05:37:27.747Z</updated>
     
     <content type="html"><![CDATA[<blockquote><blockquote><p>生命是因为一次又一次的等待才显得漫长的，如果有谁一生中都没有等待过谁，那他一定是个短命鬼。 </p></blockquote></blockquote>]]></content>
     
@@ -142,6 +176,8 @@
     
     </summary>
     
+      <category term="文字控" scheme="http://yoursite.com/categories/%E6%96%87%E5%AD%97%E6%8E%A7/"/>
+    
     
       <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
     
@@ -152,7 +188,7 @@
     <link href="http://yoursite.com/2019/05/10/Apache-POI%E4%BD%BF%E7%94%A8/"/>
     <id>http://yoursite.com/2019/05/10/Apache-POI使用/</id>
     <published>2019-05-10T06:47:02.000Z</published>
-    <updated>2019-05-10T07:05:39.499Z</updated>
+    <updated>2019-05-16T05:36:50.388Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"> <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 根据fileType不同读取excel文件</span></span><br><span class="line"><span class="comment">     *</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> path</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> path</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@throws</span> IOException</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> List&lt;List&lt;String&gt;&gt; readExcel(String path) &#123;</span><br><span class="line">        String fileType = path.substring(path.lastIndexOf(<span class="string">"."</span>) + <span class="number">1</span>);</span><br><span class="line">        System.err.println(fileType);</span><br><span class="line">        <span class="comment">// return a list contains many list</span></span><br><span class="line">       List&lt;List&lt;String&gt;&gt; lists = <span class="keyword">new</span> ArrayList&lt;List&lt;String&gt;&gt;();</span><br><span class="line">        <span class="comment">//读取excel文件</span></span><br><span class="line">        InputStream is = <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            is = <span class="keyword">new</span> FileInputStream(path);</span><br><span class="line">            <span class="comment">//获取工作薄</span></span><br><span class="line">            Workbook wb = <span class="keyword">null</span>;</span><br><span class="line">            <span class="keyword">if</span> (fileType.equals(<span class="string">"xls"</span>)) &#123;</span><br><span class="line">                wb = <span class="keyword">new</span> HSSFWorkbook(is);</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span> (fileType.equals(<span class="string">"xlsx"</span>)) &#123;</span><br><span class="line">                wb = <span class="keyword">new</span> XSSFWorkbook(is);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="comment">//读取第一个工作页sheet</span></span><br><span class="line">            Sheet sheet = wb.getSheetAt(<span class="number">0</span>);</span><br><span class="line">            <span class="comment">//第一行为标题</span></span><br><span class="line">            <span class="keyword">for</span> (Row row : sheet) &#123;</span><br><span class="line">                ArrayList&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</span><br><span class="line">                <span class="keyword">for</span> (Cell cell : row) &#123;</span><br><span class="line">                    <span class="comment">//根据不同类型转化成字符串</span></span><br><span class="line">                    cell.setCellType(Cell.CELL_TYPE_STRING);</span><br><span class="line">                    list.add(cell.getStringCellValue());</span><br><span class="line">                &#125;</span><br><span class="line">                lists.add(list);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                <span class="keyword">if</span> (is != <span class="keyword">null</span>) is.close();</span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> lists;</span><br><span class="line">       </span><br><span class="line">        </span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><hr><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 创建Excel.xls</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> lists 需要写入xls的数据</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> titles 列标题</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> name  文件名</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">    * <span class="doctag">@throws</span> IOException</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">  </span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Workbook <span class="title">creatExcel</span><span class="params">(List&lt;List&lt;String&gt;&gt; lists, String[] titles, String name)</span> <span class="keyword">throws</span> IOException </span>&#123;</span><br><span class="line">      </span><br><span class="line">       <span class="comment">//创建新的工作薄</span></span><br><span class="line">       Workbook wb = <span class="keyword">new</span> HSSFWorkbook();</span><br><span class="line">       <span class="comment">// 创建第一个sheet（页），并命名</span></span><br><span class="line">       Sheet sheet = wb.createSheet(name);</span><br><span class="line">       <span class="comment">// 手动设置列宽。第一个参数表示要为第几列设；，第二个参数表示列的宽度，n为列高的像素数。</span></span><br><span class="line">       <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;titles.length;i++)&#123;</span><br><span class="line">           sheet.setColumnWidth((<span class="keyword">short</span>) i, (<span class="keyword">short</span>) (<span class="number">35.7</span> * <span class="number">150</span>));</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 创建第一行</span></span><br><span class="line">       Row row = sheet.createRow((<span class="keyword">short</span>) <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 创建两种单元格格式</span></span><br><span class="line">       CellStyle cs = wb.createCellStyle();</span><br><span class="line">       CellStyle cs2 = wb.createCellStyle();</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 创建两种字体</span></span><br><span class="line">       Font f = wb.createFont();</span><br><span class="line">       Font f2 = wb.createFont();</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 创建第一种字体样式（用于列名）</span></span><br><span class="line">       f.setFontHeightInPoints((<span class="keyword">short</span>) <span class="number">10</span>);</span><br><span class="line">       f.setColor(IndexedColors.BLACK.getIndex());</span><br><span class="line">       f.setBoldweight(Font.BOLDWEIGHT_BOLD);</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 创建第二种字体样式（用于值）</span></span><br><span class="line">       f2.setFontHeightInPoints((<span class="keyword">short</span>) <span class="number">10</span>);</span><br><span class="line">       f2.setColor(IndexedColors.BLACK.getIndex());</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 设置第一种单元格的样式（用于列名）</span></span><br><span class="line">       cs.setFont(f);</span><br><span class="line">       cs.setBorderLeft(CellStyle.BORDER_THIN);</span><br><span class="line">       cs.setBorderRight(CellStyle.BORDER_THIN);</span><br><span class="line">       cs.setBorderTop(CellStyle.BORDER_THIN);</span><br><span class="line">       cs.setBorderBottom(CellStyle.BORDER_THIN);</span><br><span class="line">       cs.setAlignment(CellStyle.ALIGN_CENTER);</span><br><span class="line"></span><br><span class="line">       <span class="comment">// 设置第二种单元格的样式（用于值）</span></span><br><span class="line">       cs2.setFont(f2);</span><br><span class="line">       cs2.setBorderLeft(CellStyle.BORDER_THIN);</span><br><span class="line">       cs2.setBorderRight(CellStyle.BORDER_THIN);</span><br><span class="line">       cs2.setBorderTop(CellStyle.BORDER_THIN);</span><br><span class="line">       cs2.setBorderBottom(CellStyle.BORDER_THIN);</span><br><span class="line">       cs2.setAlignment(CellStyle.ALIGN_CENTER);</span><br><span class="line">       <span class="comment">//设置列名</span></span><br><span class="line">       <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;titles.length;i++)&#123;</span><br><span class="line">           Cell cell = row.createCell(i);</span><br><span class="line">           cell.setCellValue(titles[i]);</span><br><span class="line">           cell.setCellStyle(cs);</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">if</span>(lists == <span class="keyword">null</span> || lists.size() == <span class="number">0</span>)&#123;</span><br><span class="line">           <span class="keyword">return</span> wb;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="comment">//设置每行每列的值</span></span><br><span class="line">       <span class="comment">//设置每行每列的值</span></span><br><span class="line">       <span class="comment">//设置每行每列的值</span></span><br><span class="line">       <span class="comment">//设置每行每列的值</span></span><br><span class="line"></span><br><span class="line">       <span class="keyword">for</span> (<span class="keyword">short</span> i = <span class="number">1</span>; i &lt;=<span class="number">805</span>; i++) &#123;</span><br><span class="line">           <span class="comment">// Row 行,Cell 方格 , Row 和 Cell 都是从0开始计数的</span></span><br><span class="line">           <span class="comment">// 创建一行，在页sheet上</span></span><br><span class="line">       </span><br><span class="line">           Row row1 = sheet.createRow((<span class="keyword">short</span>)i);</span><br><span class="line">           <span class="keyword">for</span>(<span class="keyword">short</span> j=<span class="number">0</span>;j&lt;titles.length;j++)&#123;</span><br><span class="line">               <span class="comment">// 在row行上创建一个方格</span></span><br><span class="line">               Cell cell = row1.createCell(j);</span><br><span class="line">               <span class="keyword">switch</span> (j) &#123;</span><br><span class="line"><span class="keyword">case</span> <span class="number">0</span>:</span><br><span class="line">cell.setCellValue(i);</span><br><span class="line"><span class="keyword">break</span>;</span><br><span class="line"><span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">4</span>));</span><br><span class="line"><span class="keyword">break</span>;                       </span><br><span class="line"><span class="keyword">case</span> <span class="number">2</span>:                          </span><br><span class="line">cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">5</span>));</span><br><span class="line"><span class="keyword">break</span>;                       </span><br><span class="line"><span class="keyword">case</span> <span class="number">3</span>:                          </span><br><span class="line">cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">7</span>));</span><br><span class="line"><span class="keyword">break</span>;                       </span><br><span class="line"><span class="keyword">case</span> <span class="number">4</span>:                          </span><br><span class="line">cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">8</span>));</span><br><span class="line"><span class="keyword">break</span>;                       </span><br><span class="line"><span class="keyword">case</span> <span class="number">5</span>:                          </span><br><span class="line">cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">9</span>));</span><br><span class="line"><span class="keyword">break</span>;                       </span><br><span class="line"><span class="keyword">case</span> <span class="number">6</span>:                         </span><br><span class="line">cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">10</span>));</span><br><span class="line"><span class="keyword">break</span>;                       </span><br><span class="line"><span class="keyword">case</span> <span class="number">7</span>:                         </span><br><span class="line">cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">19</span>));</span><br><span class="line"><span class="keyword">break</span>;                       </span><br><span class="line"><span class="keyword">case</span> <span class="number">8</span>:                         </span><br><span class="line">cell.setCellValue(lists.get(i+<span class="number">2</span>).get(<span class="number">21</span>));</span><br><span class="line"><span class="keyword">break</span>; </span><br><span class="line"></span><br><span class="line"><span class="keyword">default</span>:</span><br><span class="line"><span class="keyword">break</span>;</span><br><span class="line">&#125;</span><br><span class="line">              </span><br><span class="line">               cell.setCellStyle(cs2);</span><br><span class="line">           &#125;</span><br><span class="line">           </span><br><span class="line">       &#125;</span><br><span class="line">   </span><br><span class="line">       <span class="keyword">return</span> wb;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure><hr><blockquote><p>自己参照API写了两个方法， 车轮已经造好，直接拿去用吧。</p></blockquote><blockquote><p>具体参考 <a href="https://www.cnblogs.com/huajiezh/p/5467821.html" title="Apache POI" target="_blank" rel="noopener">空谷幽澜</a>. </p></blockquote>]]></content>
     
@@ -164,6 +200,8 @@
       
     
     </summary>
+    
+      <category term="后端开发" scheme="http://yoursite.com/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
       <category term="POI" scheme="http://yoursite.com/tags/POI/"/>
@@ -209,7 +247,7 @@
     <link href="http://yoursite.com/2019/05/08/%E5%BF%83%E6%83%85/"/>
     <id>http://yoursite.com/2019/05/08/心情/</id>
     <published>2019-05-08T05:30:10.000Z</published>
-    <updated>2019-05-10T01:48:24.560Z</updated>
+    <updated>2019-05-16T05:38:22.191Z</updated>
     
     <content type="html"><![CDATA[<div style="display: none"><br><br>心疼你的不易，努力让自己变得更好，才能好好照顾你。<br></div><p>愿温柔相待与你，满杯欢喜，不逐哀城！</p>]]></content>
     
@@ -227,6 +265,8 @@
       
     
     </summary>
+    
+      <category term="文字控" scheme="http://yoursite.com/categories/%E6%96%87%E5%AD%97%E6%8E%A7/"/>
     
     
       <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
@@ -315,7 +355,7 @@
     <link href="http://yoursite.com/2019/05/04/I-Love-You/"/>
     <id>http://yoursite.com/2019/05/04/I-Love-You/</id>
     <published>2019-05-04T01:17:41.000Z</published>
-    <updated>2019-05-04T03:09:32.402Z</updated>
+    <updated>2019-05-16T05:39:11.146Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/img/520.jpg" alt="avatar"></p><ul><li style="list-style: none"><input type="checkbox" checked> I-Inject　　　—-投入 　　</li><li style="list-style: none"><input type="checkbox" checked> L-Loyal　　　—-忠诚 　　</li><li style="list-style: none"><input type="checkbox" checked> O-Observant　—-用心 　　</li><li style="list-style: none"><input type="checkbox" checked> V-Valiant　　—-勇敢 　　</li><li style="list-style: none"><input type="checkbox" checked> E-Enjoyment　—-喜悦 　　</li><li style="list-style: none"><input type="checkbox" checked> Y-Yes　　　　—-愿意 　　</li><li style="list-style: none"><input type="checkbox" checked> O-Obligation —-责任 　　</li><li style="list-style: none"><input type="checkbox" checked> U-Unison　　 —-和谐 　　<blockquote><pre><code>所以爱，就是投入、忠诚、用心、勇敢、喜悦、愿意、责任，还有和谐。</code></pre></blockquote></li></ul>]]></content>
     
@@ -332,7 +372,7 @@
     
     </summary>
     
-      <category term="文字" scheme="http://yoursite.com/categories/%E6%96%87%E5%AD%97/"/>
+      <category term="文字控" scheme="http://yoursite.com/categories/%E6%96%87%E5%AD%97%E6%8E%A7/"/>
     
     
       <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
@@ -404,7 +444,7 @@
     <link href="http://yoursite.com/2019/04/29/%E6%96%87%E5%AD%97%E6%8E%A7/"/>
     <id>http://yoursite.com/2019/04/29/文字控/</id>
     <published>2019-04-29T13:35:18.000Z</published>
-    <updated>2019-04-30T14:03:18.040Z</updated>
+    <updated>2019-05-16T05:38:10.800Z</updated>
     
     <content type="html"><![CDATA[<p>不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐</p>]]></content>
     
@@ -416,6 +456,8 @@
       
     
     </summary>
+    
+      <category term="文字控" scheme="http://yoursite.com/categories/%E6%96%87%E5%AD%97%E6%8E%A7/"/>
     
     
       <category term="文字控" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97%E6%8E%A7/"/>
