@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-17T12:44:31.627Z</updated>
+  <updated>2019-05-23T01:17:27.024Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一直很安静</title>
+    <link href="http://yoursite.com/2019/05/23/%E4%B8%80%E7%9B%B4%E5%BE%88%E5%AE%89%E9%9D%99/"/>
+    <id>http://yoursite.com/2019/05/23/一直很安静/</id>
+    <published>2019-05-23T01:01:28.000Z</published>
+    <updated>2019-05-23T01:17:27.024Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><code>一直很安静</code></p></blockquote><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;一直很安静&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
+    
+  </entry>
   
   <entry>
     <title>心情 </title>
