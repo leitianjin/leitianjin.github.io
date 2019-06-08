@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-06T06:51:05.317Z</updated>
+  <updated>2019-06-08T02:08:22.801Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>语句摘抄</title>
+    <link href="http://yoursite.com/2019/06/08/%E8%AF%AD%E5%8F%A5%E6%91%98%E6%8A%84/"/>
+    <id>http://yoursite.com/2019/06/08/语句摘抄/</id>
+    <published>2019-06-08T02:01:40.000Z</published>
+    <updated>2019-06-08T02:08:22.801Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>愿生活可以如诗般自由，吃想吃的饭，见想见的人，看喜欢的风景，做可以做的事。心不老，有人一起胡闹，你还在，我依然。</p><ul><li>张皓宸</li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;愿生活可以如诗般自由，吃想吃的饭，见想见的人，看喜欢的风景，做可以做的事。心不老，有人一起胡闹，你还在，我依然。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;张皓宸&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="摘抄" scheme="http://yoursite.com/tags/%E6%91%98%E6%8A%84/"/>
+    
+  </entry>
   
   <entry>
     <title>混乱</title>
@@ -514,35 +543,6 @@
     
     
       <category term="MIT BSD  开源软件" scheme="http://yoursite.com/tags/MIT-BSD-%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>I Love You</title>
-    <link href="http://yoursite.com/2019/05/04/I-Love-You/"/>
-    <id>http://yoursite.com/2019/05/04/I-Love-You/</id>
-    <published>2019-05-04T01:17:41.000Z</published>
-    <updated>2019-05-16T05:39:11.146Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/img/520.jpg" alt="avatar"></p><ul><li style="list-style: none"><input type="checkbox" checked> I-Inject　　　—-投入 　　</li><li style="list-style: none"><input type="checkbox" checked> L-Loyal　　　—-忠诚 　　</li><li style="list-style: none"><input type="checkbox" checked> O-Observant　—-用心 　　</li><li style="list-style: none"><input type="checkbox" checked> V-Valiant　　—-勇敢 　　</li><li style="list-style: none"><input type="checkbox" checked> E-Enjoyment　—-喜悦 　　</li><li style="list-style: none"><input type="checkbox" checked> Y-Yes　　　　—-愿意 　　</li><li style="list-style: none"><input type="checkbox" checked> O-Obligation —-责任 　　</li><li style="list-style: none"><input type="checkbox" checked> U-Unison　　 —-和谐 　　<blockquote><pre><code>所以爱，就是投入、忠诚、用心、勇敢、喜悦、愿意、责任，还有和谐。</code></pre></blockquote></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;/img/520.jpg&quot; alt=&quot;avatar&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li style=&quot;list-style: none&quot;&gt;&lt;input type=&quot;checkbox&quot; checked&gt; I-Inject　　　—-投入 
-　　&lt;/li&gt;
-&lt;li 
-      
-    
-    </summary>
-    
-      <category term="文字控" scheme="http://yoursite.com/categories/%E6%96%87%E5%AD%97%E6%8E%A7/"/>
-    
-    
-      <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
     
   </entry>
   
