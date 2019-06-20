@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-11T14:26:39.775Z</updated>
+  <updated>2019-06-20T13:38:10.976Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>名言摘抄</title>
+    <link href="http://yoursite.com/2019/06/20/%E5%90%8D%E8%A8%80%E6%91%98%E6%8A%84/"/>
+    <id>http://yoursite.com/2019/06/20/名言摘抄/</id>
+    <published>2019-06-20T13:32:07.000Z</published>
+    <updated>2019-06-20T13:38:10.976Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>  这世间，唯有梦想与好姑娘不可辜负</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;  这世间，唯有梦想与好姑娘不可辜负&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="名言摘抄" scheme="http://yoursite.com/tags/%E5%90%8D%E8%A8%80%E6%91%98%E6%8A%84/"/>
+    
+  </entry>
   
   <entry>
     <title>关于GitHub</title>
@@ -522,34 +548,6 @@
     
     
       <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>I love you three thousand times</title>
-    <link href="http://yoursite.com/2019/05/06/I-love-you-three-thousand-times/"/>
-    <id>http://yoursite.com/2019/05/06/I-love-you-three-thousand-times/</id>
-    <published>2019-05-06T12:43:40.000Z</published>
-    <updated>2019-05-08T12:15:03.163Z</updated>
-    
-    <content type="html"><![CDATA[<p>Love you 3000 ❤️,我爱你不止三千遍。</p><hr><p><img src="/img/ts.jpg" alt="I love you three thousand times"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Love you 3000 ❤️,我爱你不止三千遍。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&quot;/img/ts.jpg&quot; alt=&quot;I love you three thousand times&quot;&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="HEXO博客" scheme="http://yoursite.com/categories/HEXO%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-      <category term="I love you three thousand times" scheme="http://yoursite.com/tags/I-love-you-three-thousand-times/"/>
     
   </entry>
   
