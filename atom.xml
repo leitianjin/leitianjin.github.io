@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-05T02:29:23.039Z</updated>
+  <updated>2019-07-11T06:58:35.314Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>活着，真是寂寞</title>
+    <link href="http://yoursite.com/2019/07/11/%E6%B4%BB%E7%9D%80%EF%BC%8C%E7%9C%9F%E6%98%AF%E5%AF%82%E5%AF%9E/"/>
+    <id>http://yoursite.com/2019/07/11/活着，真是寂寞/</id>
+    <published>2019-07-11T06:50:43.000Z</published>
+    <updated>2019-07-11T06:58:35.314Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>因为遇到你，我开始觉得孤单了。原来这世界上依旧有我想要得到的东西，一念之间，意识到自己活着。活着，真是寂寞。</p><ul><li>陶立夏</li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;因为遇到你，我开始觉得孤单了。原来这世界上依旧有我想要得到的东西，一念之间，意识到自己活着。活着，真是寂寞。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;陶立夏&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
+    
+  </entry>
   
   <entry>
     <title>无标题</title>
@@ -486,34 +515,6 @@
     
     
       <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>名言摘录2</title>
-    <link href="http://yoursite.com/2019/05/12/%E5%90%8D%E8%A8%80%E6%91%98%E5%BD%952/"/>
-    <id>http://yoursite.com/2019/05/12/名言摘录2/</id>
-    <published>2019-05-12T09:16:32.000Z</published>
-    <updated>2019-05-16T05:37:54.325Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>这世界只有一种乡愁，是你不在身边的时候。 </p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;这世界只有一种乡愁，是你不在身边的时候。 &lt;/p&gt;
-&lt;/blockquote&gt;
-
-      
-    
-    </summary>
-    
-      <category term="文字控" scheme="http://yoursite.com/categories/%E6%96%87%E5%AD%97%E6%8E%A7/"/>
-    
-    
-      <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
     
   </entry>
   
