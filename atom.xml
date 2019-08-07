@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-15T10:27:32.150Z</updated>
+  <updated>2019-08-07T11:59:44.146Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>七夕</title>
+    <link href="http://yoursite.com/2019/08/07/%E4%B8%83%E5%A4%95/"/>
+    <id>http://yoursite.com/2019/08/07/七夕/</id>
+    <published>2019-08-07T11:56:55.000Z</published>
+    <updated>2019-08-07T11:59:44.146Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>碎碎念</title>
@@ -487,32 +501,6 @@
     </summary>
     
       <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>忽然之间</title>
-    <link href="http://yoursite.com/2019/05/15/%E5%BF%BD%E7%84%B6%E4%B9%8B%E9%97%B4/"/>
-    <id>http://yoursite.com/2019/05/15/忽然之间/</id>
-    <published>2019-05-15T03:11:08.000Z</published>
-    <updated>2019-05-16T05:42:07.912Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>忽然之间</p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;忽然之间&lt;/p&gt;
-&lt;/blockquote&gt;
-
-      
-    
-    </summary>
     
     
       <category term="文字" scheme="http://yoursite.com/tags/%E6%96%87%E5%AD%97/"/>
