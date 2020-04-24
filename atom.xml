@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-02T09:59:07.894Z</updated>
+  <updated>2020-04-24T06:33:29.465Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tools</title>
+    <link href="http://yoursite.com/2020/04/24/Tools/"/>
+    <id>http://yoursite.com/2020/04/24/Tools/</id>
+    <published>2020-04-24T06:16:23.000Z</published>
+    <updated>2020-04-24T06:33:29.465Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.io.ByteArrayOutputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.DataInputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.File;</span><br><span class="line"><span class="keyword">import</span> java.io.FileOutputStream;</span><br><span class="line"><span class="keyword">import</span> java.io.IOException;</span><br><span class="line"><span class="keyword">import</span> java.net.MalformedURLException;</span><br><span class="line"><span class="keyword">import</span> java.net.URL;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Tianjin</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@version</span> 1.0</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@date</span> 2020.04.21</span></span><br><span class="line"><span class="comment"> * 工具类</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Tools</span> </span>&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> urlList</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return</span> String</span></span><br><span class="line"><span class="comment"> *  批量保存方法</span></span><br><span class="line"><span class="comment"> * 入参  下载地址url</span></span><br><span class="line"><span class="comment"> * 出参   保存路径及文件名</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span>  String <span class="title">Download</span><span class="params">(String urlList)</span> </span>&#123;</span><br><span class="line">        URL url = <span class="keyword">null</span>;</span><br><span class="line">        String filepath=<span class="string">""</span>;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            url = <span class="keyword">new</span> URL(urlList);</span><br><span class="line">            DataInputStream dataInputStream = <span class="keyword">new</span> DataInputStream(url.openStream());</span><br><span class="line">            String newpaht =<span class="string">"d:\\test\\"</span>;<span class="comment">//+"\\"+urlList.substring(urlList.lastIndexOf("/")+1, urlList.length());//+".jpg";</span></span><br><span class="line">            <span class="keyword">try</span>&#123;</span><br><span class="line">File file = <span class="keyword">new</span> File(newpaht);</span><br><span class="line"><span class="keyword">if</span>(!file.exists())&#123;</span><br><span class="line">file.mkdirs();</span><br><span class="line">&#125;</span><br><span class="line">&#125;<span class="keyword">catch</span>(Exception ex)&#123;</span><br><span class="line">System.out.println(ex);</span><br><span class="line">&#125;</span><br><span class="line">            filepath=newpaht+<span class="string">"\\"</span>+urlList.substring(urlList.lastIndexOf(<span class="string">"/"</span>)+<span class="number">1</span>, urlList.length())+<span class="string">".jpg"</span>;</span><br><span class="line">            FileOutputStream fileOutputStream = <span class="keyword">new</span> FileOutputStream(<span class="keyword">new</span> File(filepath));</span><br><span class="line">            ByteArrayOutputStream output = <span class="keyword">new</span> ByteArrayOutputStream();</span><br><span class="line"> </span><br><span class="line">            <span class="keyword">byte</span>[] buffer = <span class="keyword">new</span> <span class="keyword">byte</span>[<span class="number">1024</span>];</span><br><span class="line">            <span class="keyword">int</span> length;</span><br><span class="line"> </span><br><span class="line">            <span class="keyword">while</span> ((length = dataInputStream.read(buffer)) &gt; <span class="number">0</span>) &#123;</span><br><span class="line">                output.write(buffer, <span class="number">0</span>, length);</span><br><span class="line">            &#125;</span><br><span class="line">            fileOutputStream.write(output.toByteArray());</span><br><span class="line">            dataInputStream.close();</span><br><span class="line">            fileOutputStream.close();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (MalformedURLException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line"><span class="keyword">return</span> filepath;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=
+      
+    
+    </summary>
+    
+      <category term="后端开发" scheme="http://yoursite.com/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>20200202</title>
@@ -461,33 +486,6 @@
       
         &lt;p&gt;其实我想说的是，我很想你，还有~ 等你回来，我们一起去吃好吃的，仅此而已。&lt;/p&gt;
 
-      
-    
-    </summary>
-    
-    
-      <category term="心情" scheme="http://yoursite.com/tags/%E5%BF%83%E6%83%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我懂你的不容易</title>
-    <link href="http://yoursite.com/2019/05/25/%E6%88%91%E6%87%82%E4%BD%A0%E7%9A%84%E4%B8%8D%E5%AE%B9%E6%98%93/"/>
-    <id>http://yoursite.com/2019/05/25/我懂你的不容易/</id>
-    <published>2019-05-25T02:23:48.000Z</published>
-    <updated>2019-05-25T03:26:19.502Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>我懂你的不容易</p></blockquote><p>众生皆苦，每个人都承受着自己的艰辛。而我懂你，就会对你的苦感同身受，纵使不能为你分担，也要在这苦里加点糖，尽我所能，让你好过一点。</p><p>我懂你的不容易，所以发自内心地体谅你的过失，你的消沉，你的任性，你的平庸。</p><p>我不是不会生气，而是知道不该生气。</p><p>这也许才是良好亲密关系的根本。只是我们通常意识不到。</p><p>我们一贯看重的，是你欣赏我的好。</p><p>你要看到我的美、我的才华、我的智慧、我的善良，这样你就会爱我宠我珍惜我。</p><p>这当然也重要，但仅有这个其实远远不够。</p><p>其实无论什么关系，夫妻也好，母子也好，同事也好，要想相处融洽、内心亲密、感情稳固，除了要欣赏对方的好，更应该懂得对方的苦。</p><p><br></p><p><br></p><center><code>愿温柔相待与你，满杯欢喜，不逐哀城！</code></center>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;我懂你的不容易&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;众生皆苦，每个人都承受着自己的艰辛。而我懂你，就会对你的苦感同身受，纵使不能为你分担，也要在这苦里加点糖，尽我所能，让你好过一点。&lt;/p&gt;
-&lt;p&gt;我懂你的不容易，所以发自内心地体谅你的过失，
       
     
     </summary>
