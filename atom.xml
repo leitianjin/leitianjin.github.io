@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-24T06:33:29.465Z</updated>
+  <updated>2020-05-10T12:15:13.519Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>章鱼猫</title>
+    <link href="http://yoursite.com/2020/05/10/%E7%AB%A0%E9%B1%BC%E7%8C%AB/"/>
+    <id>http://yoursite.com/2020/05/10/章鱼猫/</id>
+    <published>2020-05-10T12:10:35.000Z</published>
+    <updated>2020-05-10T12:15:13.519Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>如果单看左手就是 “无奈”的感觉<br>如果单看右手就是 “无所畏惧、无所谓、能耐我何”的感觉<br>合起来就是 “在牛逼的人也有无奈的时候”</p></blockquote><h2 id="章鱼猫"><a href="#章鱼猫" class="headerlink" title="章鱼猫:"></a>章鱼猫:</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;如果单看左手就是 “无奈”的感觉&lt;br&gt;如果单看右手就是 “无所畏惧、无所谓、能耐我何”的感觉&lt;br&gt;合起来就是 “在牛逼的人也有无奈的时候”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;章鱼猫&quot;&gt;&lt;a href=&quot;#章鱼猫&quot; class=
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Tools</title>
@@ -468,30 +492,6 @@
     
     
       <category term="终端应用" scheme="http://yoursite.com/tags/%E7%BB%88%E7%AB%AF%E5%BA%94%E7%94%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>其实我想说的是，我很想你</title>
-    <link href="http://yoursite.com/2019/05/25/%E5%85%B6%E5%AE%9E%E6%88%91%E6%83%B3%E8%AF%B4%E7%9A%84%E6%98%AF%EF%BC%8C%E6%88%91%E5%BE%88%E6%83%B3%E4%BD%A0/"/>
-    <id>http://yoursite.com/2019/05/25/其实我想说的是，我很想你/</id>
-    <published>2019-05-25T03:17:46.000Z</published>
-    <updated>2019-05-25T03:21:32.634Z</updated>
-    
-    <content type="html"><![CDATA[<p>其实我想说的是，我很想你，还有~ 等你回来，我们一起去吃好吃的，仅此而已。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;其实我想说的是，我很想你，还有~ 等你回来，我们一起去吃好吃的，仅此而已。&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="心情" scheme="http://yoursite.com/tags/%E5%BF%83%E6%83%85/"/>
     
   </entry>
   
