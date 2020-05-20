@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-10T12:15:13.519Z</updated>
+  <updated>2020-05-20T12:54:25.700Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20200520</title>
+    <link href="http://yoursite.com/2020/05/20/20200520/"/>
+    <id>http://yoursite.com/2020/05/20/20200520/</id>
+    <published>2020-05-20T05:14:01.000Z</published>
+    <updated>2020-05-20T12:54:25.700Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>我知道遇见你不容易，</p></blockquote><blockquote><p>错过了会很可惜，</p></blockquote><blockquote><p>我不希望余生都是回忆，</p></blockquote><blockquote><p>我想余生每天都是你，</p></blockquote><blockquote><p>我爱你。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;我知道遇见你不容易，&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;错过了会很可惜，&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我不希望余生都是回忆，&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;block
+      
+    
+    </summary>
+    
+    
+      <category term="心情" scheme="http://yoursite.com/tags/%E5%BF%83%E6%83%85/"/>
+    
+  </entry>
   
   <entry>
     <title>章鱼猫</title>
@@ -469,29 +501,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Git bash 体验</title>
-    <link href="http://yoursite.com/2019/05/25/Git-bash-%E4%BD%93%E9%AA%8C/"/>
-    <id>http://yoursite.com/2019/05/25/Git-bash-体验/</id>
-    <published>2019-05-25T06:07:51.000Z</published>
-    <updated>2019-05-25T06:34:24.051Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="操作视频"><a href="#操作视频" class="headerlink" title="操作视频"></a>操作视频</h3><video autoplay preload="auto" hidden="true" controls src="/video/gitbash1.mp4" width="320"></video> ]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;操作视频&quot;&gt;&lt;a href=&quot;#操作视频&quot; class=&quot;headerlink&quot; title=&quot;操作视频&quot;&gt;&lt;/a&gt;操作视频&lt;/h3&gt;&lt;video autoplay preload=&quot;auto&quot; hidden=&quot;true&quot; controls src=&quot;/video
-      
-    
-    </summary>
-    
-    
-      <category term="终端应用" scheme="http://yoursite.com/tags/%E7%BB%88%E7%AB%AF%E5%BA%94%E7%94%A8/"/>
     
   </entry>
   
